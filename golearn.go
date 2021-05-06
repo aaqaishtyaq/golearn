@@ -10,6 +10,9 @@ const spanishHelloPrefix = "Hola, "
 
 const defaultName = "Tom"
 
+// Hello takes name and language as params
+// ans returns greeting in for the language and name
+// otherwise it returns 'Hello, World'
 func Hello(name, language string) string {
 	if name == "" {
 		name = "World"
